@@ -81,6 +81,9 @@ h2 {
   line-height: 32px;
   margin: 0 0 24px;
 }
+* + h2 {
+  margin-top: 48px;
+}
 
 h3 {
   font-size: 18px;
@@ -156,6 +159,30 @@ a:active {
 a:hover,
 a:focus {
   color: #00e6a1;
+}
+
+.c-author {
+  display: flex;
+  align-items: center;
+}
+
+.c-author__img {
+  border-radius: 100%;
+}
+
+.c-author__meta,
+.c-author__name {
+  margin: 0px;
+}
+
+.c-author__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c-author__meta {
+  font-size: 14px;
+  font-family: 'inter webx', 'Helvetica Neue', Helvetica, arial, sans-serif;
 }
 
 /* Small devices (landscape phones, 576px and up) */
